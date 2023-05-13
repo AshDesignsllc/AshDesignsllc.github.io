@@ -1,0 +1,28 @@
+.navbar {
+    background-color: #ffffff;
+    padding: 25px 0;
+}
+.fa-square {
+    color: #462749;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-brand {
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+span {
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    color: #573B5A;
+}
+
+.nav-link .active {
+    color:#462749;
+}
