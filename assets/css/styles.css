@@ -26,3 +26,41 @@ span {
 .nav-link .active {
     color:#462749;
 }
+
+/**** Main Section ****/
+.background-left {
+    margin: 0 auto;
+    background-color: #8b575c;
+    height: 100%;
+    position: absolute;
+    top: 10;
+    width: 40%;
+}
+
+.background-right {
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 100%;
+    position: relative;
+    top: 10;
+    width: 20%;
+}
+
+.bg-primary {
+    border-collapse: collapse;
+   background-color: rgb(201,137,134)!important;
+}
+
+
+.card-body {
+    
+}
+
+.card-footer {
+    background-color: #ffffff;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
