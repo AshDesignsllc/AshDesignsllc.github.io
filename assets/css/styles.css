@@ -100,6 +100,11 @@ ul li {
 
 ul li .fa-linkedin-in, .fa-github {
     padding-right: 40px;
+    color:#573B5A;
+}
+
+ul li .fa-instagram {
+    color: #573b5a;
 }
 
 .card-body h1 {
