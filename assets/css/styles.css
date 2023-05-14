@@ -1,5 +1,9 @@
 /**** Navigation Bar Section ****/
 
+html {
+    font-size: 16px;
+}
+
 .navbar {
     background-color: #ffffff;
     padding: 25px 0;
@@ -12,6 +16,8 @@
 
 .navbar-brand {
     font-weight: 900;
+    display: flex;
+    flex-wrap: inherit;
     letter-spacing: 0.1em;
 }
 
@@ -36,7 +42,7 @@ span {
     height: 100%;
     position: absolute;
     top: 10;
-    width: 40%;
+    width: 50%;
 }
 
 .background-right {
@@ -57,20 +63,22 @@ span {
 
 .card {
     margin-top: 100px;
+    max-width: 540px;
 }
+
 .img-fluid {
     width: 150px;
     height: 150px;
 }
 .col-md-4 h2 {
-    font-size: 20px;
+    font-size: 1.25rem;
     text-align: center;
 }
 
 .col-md-4 h3 {
     text-align: center;
     font-weight: 200;
-    font-size: 16px;
+    font-size: 1rem;
     text-transform: uppercase;
     padding-bottom: 15px;
 }
@@ -85,7 +93,7 @@ ul li {
 }
 
 .card-body h1 {
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 
 .card-title {
@@ -119,10 +127,9 @@ ul li {
     color: #ffffff;
     background-color: #462749;
     border: 1px solid #462749;
-
 }
 
 .card-text {
     margin-top: 30px;
-    font-size: 16px;
+    font-size: 1rem;
 }
