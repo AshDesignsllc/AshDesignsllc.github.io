@@ -80,16 +80,22 @@ span {
     font-weight: 200;
     font-size: 1rem;
     text-transform: uppercase;
-    padding-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .col-md-4 .card-footer {
-    background-color: #ffffff;
+    background-color: #ffffff;  
 }
-
+.icons {
+    display: table;
+    margin: auto;
+}
 ul li {
     display: inline-block;
-    margin-right: 10px;
+}
+
+ul li .fa-linkedin-in, .fa-github {
+    padding-right: 15px;
 }
 
 .card-body h1 {
@@ -133,3 +139,4 @@ ul li {
     margin-top: 30px;
     font-size: 1rem;
 }
+
