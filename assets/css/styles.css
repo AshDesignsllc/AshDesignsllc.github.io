@@ -22,7 +22,7 @@ html {
     letter-spacing: 0.1em;;
 }
 
-span {
+.vocation {
     font-weight: 200;
     text-transform: uppercase;
 }
@@ -146,3 +146,30 @@ ul li .fa-linkedin-in, .fa-github {
     font-size: 1rem;
 }
 
+/**** Media Queries ****/
+@media only screen and (min-width: 320px) and (max-width: 425px), (orientation: landscape) {
+    .card {
+      margin-top: 0px;
+    }
+
+}
+
+@media only screen and (min-width: 768px), (orientation: landscape){
+    .card {
+        margin: 5%;
+        max-width: 700px
+    }
+    .forward-slash {
+        font-weight: 200;
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+    .forward-slash {
+        display: none;
+    }
+    .navbar-brand, #vocation {
+        text-align: center;
+    }
+}
