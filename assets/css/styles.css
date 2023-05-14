@@ -8,6 +8,7 @@ html {
     background-color: #ffffff;
     padding: 25px 0;
 }
+
 .fa-square {
     color: #462749;
     margin-left: 5px;
@@ -18,7 +19,7 @@ html {
     font-weight: 900;
     display: flex;
     flex-wrap: inherit;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1em;;
 }
 
 span {
@@ -39,18 +40,16 @@ span {
 .background-left {
     margin: 0 auto;
     background-color: #8b575c;
-    height: 100%;
+    height: 55%;
     position: absolute;
-    top: 10;
     width: 50%;
 }
 
 .background-right {
     margin: 0 auto;
     background-color: #ffffff;
-    height: 100%;
+    height: 55%;
     position: relative;
-    top: 10;
     width: 20%;
 }
 
@@ -63,7 +62,8 @@ span {
 
 .card {
     margin-top: 100px;
-    max-width: 540px;
+    max-width: 768px;
+    height: auto;
 }
 
 .img-fluid {
@@ -95,7 +95,7 @@ ul li {
 }
 
 ul li .fa-linkedin-in, .fa-github {
-    padding-right: 15px;
+    padding-right: 40px;
 }
 
 .card-body h1 {
@@ -117,10 +117,16 @@ ul li .fa-linkedin-in, .fa-github {
     border: none;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+.btn-primary:hover {
     color: #462749;
     background-color: #ffffff;
     border: 1px solid #462749;
+}
+
+.btn-primary:focus, .btn-primary:active, .btn-primary.active {
+    color: #000000;
+    background-color: #f6bdd1;
+    border: none;
 }
 
 .btn-outline-primary {
@@ -129,10 +135,10 @@ ul li .fa-linkedin-in, .fa-github {
     border-color: #462749;
 }
 
-.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active, .open>.dropdown-toggle.btn-outline-primary {
-    color: #ffffff;
+.btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active {
+    color: #f6bdd1;
     background-color: #462749;
-    border: 1px solid #462749;
+    border: none;
 }
 
 .card-text {
