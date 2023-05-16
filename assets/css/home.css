@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to right,
+            #8B575c 0%,
+            #8B575c 50%,
+            #ffffff 50%,
+            #ffffff 100%);
+}
+
+@media only screen and (max-width: 425px) {
+    body {
+        background: linear-gradient(to right,
+                #8B575c 100%,
+                #ffffff 50%,
+                #ffffff 100%);
+    }
+}
