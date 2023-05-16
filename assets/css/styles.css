@@ -1,12 +1,18 @@
-/**** Navigation Bar Section ****/
+/**** Global Styles ****/
+body {
+    padding-top: 200px;
+}
 
 html {
     font-size: 16px;
 }
 
+
+/**** Navigation Bar Section ****/
+
 .navbar {
     background-color: #ffffff;
-    padding: 25px 0;
+    padding: 10px 0;
 }
 
 .fa-square {
@@ -38,6 +44,13 @@ html {
 
 /**** Main Section ****/
 
+main .container-fluid {
+    margin-bottom: 150px;
+}
+
+main .container-fluid .d-flex {
+    margin: 15px;
+}
 .intro-container {
     height: 500px;
 }
@@ -181,6 +194,13 @@ ul li .fa-instagram {
       margin-top: 0px;
     }
 
+    body {
+        padding-top: 150px;
+    }
+
+    main .container-fluid {
+        margin-bottom: 100px;
+    }
 }
 
 @media only screen and (min-width: 768px), (orientation: landscape){
