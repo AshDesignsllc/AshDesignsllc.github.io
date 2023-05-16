@@ -90,10 +90,12 @@ html {
 .col-md-4 .card-footer {
     background-color: #ffffff;  
 }
+
 .icons {
     display: table;
     margin: auto;
 }
+
 ul li {
     display: inline-block;
 }
