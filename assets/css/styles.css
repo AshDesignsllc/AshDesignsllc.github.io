@@ -8,6 +8,16 @@ html {
     font-size: 16px;
 }
 
+html,body {
+    margin:0;
+    /*padding:0;*/
+    height:100%;
+ }
+ #container {
+    min-height:100%;
+    position:relative;
+ }
+
 
 /**** Navigation Bar Section ****/
 
@@ -177,6 +187,14 @@ ul li .fa-instagram {
 
 /**** Footer Section ****/
 
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #f6bdd1;
+}
+
 .contact-info-horizontal .p-2 {
     text-align: center;
     line-height: 1em;
@@ -196,7 +214,8 @@ ul li .fa-instagram {
 /**** Media Queries ****/
 @media only screen and (min-width: 320px) and (max-width: 425px), (orientation: landscape) {
     .card {
-      margin-top: 0px;
+      margin-top: 20px;
+      width: 90%;
     }
 
     body {
