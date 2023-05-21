@@ -176,6 +176,16 @@ ul li .fa-instagram {
     font-size: 1rem;
 }
 
+/**** Skills Section ****/
+
+.d-flex .justify-content-center {
+    height:
+}
+
+.fa-brands .fa-html5 {
+    height: 150px;
+}
+
 /**** Footer Section ****/
 
 .contact-info-horizontal .p-2 {
@@ -216,6 +226,9 @@ ul li .fa-instagram {
     .contact-info .list-group {
         display: none;
     }
+    div.intro-container {
+        height: 500px;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 425px) {
@@ -230,5 +243,8 @@ ul li .fa-instagram {
     }
     footer {
         margin-top: 155px;
+    }
+    div.container {
+        margin-top: 150px;
     }
 }
