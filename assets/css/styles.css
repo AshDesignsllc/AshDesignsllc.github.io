@@ -178,12 +178,19 @@ ul li .fa-instagram {
 
 /**** Skills Section ****/
 
-.d-flex .justify-content-center {
-    height:
+div.skills {
+    height: 20px;
+    text-shadow: 2px 2px 4px #ffffff;
 }
 
-.fa-brands .fa-html5 {
-    height: 150px;
+div.skills ul li {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+ul li .fa-html5, .fa-css3-alt, .fa-bootstrap, .fa-js, .fa-react, .fa-wordpress {
+    justify-content: space-evenly;
+    cursor: pointer;
 }
 
 /**** Footer Section ****/
@@ -210,8 +217,14 @@ ul li .fa-instagram {
     }
 
     main .container-fluid {
-        margin-bottom: 100px;
+        margin-bottom: 70px;
     }
+
+
+div.skills ul li {
+    padding-left: 2.5px;
+    padding-right: 2.5px;
+}
 }
 
 @media only screen and (min-width: 768px), (orientation: landscape){
