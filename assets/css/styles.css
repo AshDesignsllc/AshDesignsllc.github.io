@@ -63,22 +63,7 @@ main .container-fluid .d-flex {
     margin: 15px;
 }
 .intro-container {
-    height: 500px;
-}
-.background-left {
-    margin: 0 auto;
-    background-color: #8b575c;
-    height: 76%;
-    position: absolute;
-    width: 50%;
-}
-
-.background-right {
-    margin: 0 auto;
-    background-color: #ffffff;
-    height: 55%;
-    position: relative;
-    width: 20%;
+    height: 600px;
 }
 
 .bg-primary {
@@ -89,9 +74,9 @@ main .container-fluid .d-flex {
 /**** Card Section ****/
 
 .card {
-    margin-top: 100px;
-    max-width: 768px;
-    height: auto;
+    
+    max-width: 425px;
+    
 }
 
 .img-fluid {
@@ -174,6 +159,12 @@ ul li .fa-instagram {
     border-color: #462749;
 }
 
+.btn-outline-primary:hover {
+    color: #462749;
+    background-color: #ffffff;
+    border: 1px solid #462749;
+}
+
 .btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active {
     color: #f6bdd1;
     background-color: #462749;
@@ -187,14 +178,6 @@ ul li .fa-instagram {
 
 /**** Footer Section ****/
 
-.footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 100px;
-    background-color: #f6bdd1;
-}
-
 .contact-info-horizontal .p-2 {
     text-align: center;
     line-height: 1em;
@@ -204,12 +187,6 @@ ul li .fa-instagram {
     text-transform: uppercase;
     margin-top: 5px;
 }
-
-/*.contact-info-horizontal .p-2 .icons {
-    display: table;
-    padding-right: 10px;
-    
-}*/
 
 /**** Media Queries ****/
 @media only screen and (min-width: 320px) and (max-width: 425px), (orientation: landscape) {
