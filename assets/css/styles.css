@@ -204,10 +204,10 @@ ul li .fa-instagram {
     }
 }
 
-@media only screen and (min-width: 768px), (orientation: landscape){
+@media only screen and (min-width: 540px), (orientation: landscape){
     .card {
         margin: 5%;
-        max-width: 700px
+        max-width: 700px;
     }
     .forward-slash {
         font-weight: 200;
@@ -218,7 +218,7 @@ ul li .fa-instagram {
     }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 425px) {
+@media only screen and (min-width: 320px) and (max-width: 540px) {
     .forward-slash {
         display: none;
     }
