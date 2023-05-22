@@ -145,12 +145,10 @@ ul li .fa-instagram {
     border: 1px solid #462749;
 }
 
-.btn-primary:focus,
-.btn-primary:active,
-.btn-primary.active {
-    color: #000000;
-    background-color: #f6bdd1;
-    border: none;
+.btn-primary:active {
+    color: #462749!important;
+    background-color: #f6bdd1!important;
+    border: none!important;
 }
 
 .btn-outline-primary {
@@ -160,17 +158,15 @@ ul li .fa-instagram {
 }
 
 .btn-outline-primary:hover {
-    color: #462749;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #462749;
     border: 1px solid #462749;
 }
 
-.btn-outline-primary:focus,
-.btn-outline-primary:active,
-.btn-outline-primary.active {
-    color: #f6bdd1;
-    background-color: #462749;
-    border: none;
+.btn-outline-primary:active {
+    color: #462749!important;
+    background-color: #f6bdd1!important;
+    border: none!important;
 }
 
 .card-text {
