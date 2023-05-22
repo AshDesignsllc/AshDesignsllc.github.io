@@ -47,7 +47,7 @@ body {
 }
 
 .nav-link .active {
-    color: #462749;
+    color: #c98986;
 }
 
 /**** Main Section ****/
@@ -270,7 +270,7 @@ li.ms-3 {
     } 
 
     #email-link, #email-link2, #email-link3, #phone-number, #phone-number2, #phone-number3 {
-        color:#ffffff;
+        color:#ffffff!important;
     }
 }
 
