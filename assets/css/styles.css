@@ -8,15 +8,17 @@ html {
     font-size: 16px;
 }
 
-html,body {
-    margin:0;
+html,
+body {
+    margin: 0;
     /*padding:0;*/
-    height:100%;
- }
- #container {
-    min-height:100%;
-    position:relative;
- }
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+    position: relative;
+}
 
 
 /**** Navigation Bar Section ****/
@@ -26,17 +28,12 @@ html,body {
     padding: 10px 0;
 }
 
-.fa-square {
-    color: #462749;
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
 .navbar-brand {
     font-weight: 900;
     display: flex;
     flex-wrap: inherit;
-    letter-spacing: 0.1em;;
+    letter-spacing: 0.1em;
+    ;
 }
 
 .vocation {
@@ -50,7 +47,7 @@ html,body {
 }
 
 .nav-link .active {
-    color:#462749;
+    color: #462749;
 }
 
 /**** Main Section ****/
@@ -62,27 +59,27 @@ main .container-fluid {
 main .container-fluid .d-flex {
     margin: 15px;
 }
+
 .intro-container {
     height: 600px;
 }
 
 .bg-primary {
     border-collapse: collapse;
-   background-color: rgb(201,137,134)!important;
+    background-color: rgb(201, 137, 134) !important;
 }
 
 /**** Card Section ****/
 
 .card {
-    
     max-width: 425px;
-    
 }
 
 .img-fluid {
     width: 150px;
     height: 150px;
 }
+
 .col-md-4 h2 {
     font-size: 1.25rem;
     text-align: center;
@@ -101,7 +98,7 @@ main .container-fluid .d-flex {
 }
 
 .col-md-4 .card-footer {
-    background-color: #ffffff;  
+    background-color: #ffffff;
 }
 
 .icons {
@@ -113,9 +110,10 @@ ul li {
     display: inline-block;
 }
 
-ul li .fa-linkedin-in, .fa-github {
+ul li .fa-linkedin-in,
+.fa-github {
     padding-right: 40px;
-    color:#573B5A;
+    color: #573B5A;
 }
 
 ul li .fa-instagram {
@@ -136,7 +134,7 @@ ul li .fa-instagram {
 }
 
 .btn-primary {
-    background-color:#462749;
+    background-color: #462749;
     color: #ffffff;
     border: none;
 }
@@ -147,7 +145,9 @@ ul li .fa-instagram {
     border: 1px solid #462749;
 }
 
-.btn-primary:focus, .btn-primary:active, .btn-primary.active {
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active {
     color: #000000;
     background-color: #f6bdd1;
     border: none;
@@ -155,7 +155,7 @@ ul li .fa-instagram {
 
 .btn-outline-primary {
     background-color: #ffffff;
-    color:#462749;
+    color: #462749;
     border-color: #462749;
 }
 
@@ -165,7 +165,9 @@ ul li .fa-instagram {
     border: 1px solid #462749;
 }
 
-.btn-outline-primary:focus, .btn-outline-primary:active, .btn-outline-primary.active {
+.btn-outline-primary:focus,
+.btn-outline-primary:active,
+.btn-outline-primary.active {
     color: #f6bdd1;
     background-color: #462749;
     border: none;
@@ -183,13 +185,9 @@ div.skills {
     text-shadow: 2px 2px 4px #ffffff;
 }
 
-div.skills ul li {
-    padding-left: 10px;
+ul.mt-3 {
+    padding-left: 20px;
     padding-right: 20px;
-}
-
-ul li .fa-html5, .fa-css3-alt, .fa-bootstrap, .fa-js, .fa-react, .fa-wordpress {
-    justify-content: space-evenly;
     cursor: pointer;
 }
 
@@ -205,11 +203,24 @@ ul li .fa-html5, .fa-css3-alt, .fa-bootstrap, .fa-js, .fa-react, .fa-wordpress {
     margin-top: 5px;
 }
 
+.fa-regular, .fa-phone {
+    color:#573b5a;
+} 
+
+span.mb-3.mb-md-0.text-body-secondary {
+    color: #ffffff!important;
+}
+
+li.ms-3 {
+    margin-bottom: 10px;
+}
+
 /**** Media Queries ****/
-@media only screen and (min-width: 320px) and (max-width: 425px), (orientation: landscape) {
+@media only screen and (min-width: 320px) and (max-width: 425px),
+(orientation: landscape) {
     .card {
-      margin-top: 20px;
-      width: 90%;
+        margin-top: 40px;
+        width: 90%;
     }
 
     body {
@@ -217,30 +228,53 @@ ul li .fa-html5, .fa-css3-alt, .fa-bootstrap, .fa-js, .fa-react, .fa-wordpress {
     }
 
     main .container-fluid {
-        margin-bottom: 70px;
+        margin-bottom: 50px;
     }
 
+    ul .mt-3 {
+        padding-left: 0.5px !important;
+        padding-right: 0.5px !important;
+    }
 
-div.skills ul li {
-    padding-left: 2.5px;
-    padding-right: 2.5px;
-}
+    div.container {
+        margin-top: 300px;
+    }
+
+    .fa-regular, .fa-phone {
+        color:#ffffff;
+    } 
 }
 
-@media only screen and (min-width: 768px), (orientation: landscape){
+@media only screen and (min-width: 768px),
+(orientation: landscape) {
     .card {
         margin: 5%;
         max-width: 700px
     }
+
     .forward-slash {
         font-weight: 200;
         margin-right: 10px;
     }
+
     .contact-info .list-group {
         display: none;
     }
+
     div.intro-container {
         height: 500px;
+    }
+
+    li.ms-3, a {
+        color: #462749;
+    }
+
+    .fa-regular, .fa-phone {
+        color:#573b5a;
+    } 
+
+    #email-link, #email-link2, #email-link3, #phone-number, #phone-number2, #phone-number3 {
+        color:#ffffff;
     }
 }
 
@@ -248,16 +282,25 @@ div.skills ul li {
     .forward-slash {
         display: none;
     }
-    .navbar-brand, #vocation {
+
+    .navbar-brand,
+    #vocation {
         text-align: center;
     }
+
     .contact-info-horizontal {
         visibility: hidden;
     }
-    footer {
+
+    .d-flex .flex-wrap .justify-content-between .align-items-center {
         margin-top: 155px;
     }
+
     div.container {
         margin-top: 150px;
+    }
+
+    li.ms-3, a {
+        color: #ffffff;
     }
 }
